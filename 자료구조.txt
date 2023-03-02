@@ -1,0 +1,6 @@
+1.Python의 list 자료구조는 'stack'구조 
+-> list의 자료구조는 선입후출인 'stack 구조이므로 index가 작은 요소를 제거하는데 많은 연산이 필요하다
+ex) 길이가 100인 list에서 pop(0) 함수를 호출하면, 가장 먼저 삽입된 0번 index요소를 제거하기 위해 100번의 연산이 필요하다
+-> 따라서 기본 배열에서 중복원소를 제거하는 것 보다 새로운 배열을 생성하여 중복되지 않는 원소를 append()를 이용하여 추가하는 것이 더 빠르고 효율적이다.
+
+문제) https://school.programmers.co.kr/learn/courses/30/lessons/12906
