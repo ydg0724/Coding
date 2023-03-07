@@ -53,3 +53,26 @@ s.isupper() -> 문자열의 대문자 여부 반환
 >> a.values()
 >> a.items()
 
+Collections 모듈
+1. deque()
+- 원형 연결리스트 형태로 데이터를 저장하는 형태
+- 추가 메소드: append() -> 뒤에 추가 , appendleft() -> 앞에 추가, insert(),
+- 확장 메소드: extend() -> 한 문자씩 추가 , extendleft()
+- 이동 메소드: rotate(n) -> n만큼 오른쪽으로 이동
+- 삭제 메소드: pop(), popleft(), remove()
+
+2. OrderedDict()
+- 순서가 있는 딕셔너리
+- 정렬 메소드: sorted(d.items(), key=sort_by_key)
+
+3. defaultdict()
+- 변수를 생성할 때 기본 값을 지정할 수 있는 딕셔너리
+- d = defaultdict( 기본값 ) 으로 선언
+
+4. counter()
+- 시퀀스 자료형의 데이터 값의 개수를 딕셔너리 형태로 반환
+
+5. namedtuple()
+- 튜플 형태로 데이터 구조체를 만드는 방식 (C언어의 struct와 유사)
+ex) Point = namedtuple('Point', ['x','y'])
+    p = Point(11,22)
