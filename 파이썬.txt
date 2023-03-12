@@ -37,6 +37,7 @@ s.isupper() -> 문자열의 대문자 여부 반환
 >> a.index(index)
 >> a.sort() or a.sort(reverse=True)
 >> a.reverse()
+>> a.replace(a,b) -> a를 b로 교체
 
 2. 튜플 (값 변경 x) ()
 3. 세트 (값 중복 x) {}
