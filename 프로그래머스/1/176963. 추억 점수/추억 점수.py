@@ -10,6 +10,6 @@ def solution(name, yearning, photo):
                 sums += matching[j]
         answer.append(sums)
 
-        
-    
+
+
     return answer
