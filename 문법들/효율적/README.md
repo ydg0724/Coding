@@ -45,3 +45,13 @@ def prime_number(n):
 a = int(input())
 a = int(str(a)[::-1])
 ```
+
+## 문자열 내에서 공통된 숫자 찾기
+
+```py
+X = "12321"
+Y = "42531"
+
+xy = set(X) & set(Y)
+#result = {'2', '1', '3'}
+```
