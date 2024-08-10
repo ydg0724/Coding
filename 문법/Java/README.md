@@ -24,6 +24,12 @@ while (st.hasMoreTokens()) {
 - String[] split(String regex) : regex를 중심으로 스트링 분리
 - String trim() : 앞뒤 공백제거
 
+## StringBuilder
+- immutable인 String을 대신할 문자열 관리 클래스 (속도가 더 빠름)
+```Java
+
+```
+
 ## 컬렉션
 ### 리스트
 ```Java
