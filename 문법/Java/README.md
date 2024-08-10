@@ -27,7 +27,17 @@ while (st.hasMoreTokens()) {
 ## StringBuilder
 - immutable인 String을 대신할 문자열 관리 클래스 (속도가 더 빠름)
 ```Java
-
+StringBuilder sb = new StringBuilder(st.nextToken());
+sb.append(" world");
+sb.insert(6, "world");
+sb.replace(6,10, " world");
+sb.delete(6,10);
+sb.deleteCharAt(6);
+sb.reverse();
+int capacity = sb.capacity();
+char ch = sb.chatAt(4);
+int len = sb.length();
+String str = sb.toString();
 ```
 
 ## 컬렉션
