@@ -13,7 +13,7 @@ while (st.hasMoreTokens()) {
         }
 ```
 ## 문자열 관리
-- int parseInt(String s) : 문자열을 정수로 변환
+- int n = Integer.parseInt(String s) : 문자열을 정수로 변환
 - String toString(int i) : 정수를 문자열로 변환
 - char charAt(int i) : i인덱스 문자 값 리턴
 - int compareTo(String s): 문자열 순서 비교
@@ -23,3 +23,26 @@ while (st.hasMoreTokens()) {
 - String replace(String a, String b) : a의 문자들을 b로 치환
 - String[] split(String regex) : regex를 중심으로 스트링 분리
 - String trim() : 앞뒤 공백제거
+
+## 컬렉션
+### 리스트
+```Java
+ArrayList<Integer> list = new ArrayList<>();
+list.add(1);
+list.add(6);
+System.out.println(list.get(1));
+```
+
+### 해시맵
+```Java
+HashMap<String, Integer> map = new HashMap<>();
+map.put("apple", 1);
+map.put("banana" 2);
+map.remove("banana");
+System.out.print(map);
+
+String key = "apple";
+if(map.containKey(key)){
+   System.out.print(map.get(key));
+}
+```
